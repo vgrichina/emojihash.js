@@ -1,0 +1,25 @@
+{
+  "name": "emojihash",
+  "version": "0.0.1",
+  "description": "Generates Emoji strings from hex hash string (for easy eyeballing)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "big-integer": "^1.6.36"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "hash",
+    "emoji",
+    "crypto"
+  ],
+  "author": "vgrichina@gmail.com",
+  "license": "MIT"
+}
